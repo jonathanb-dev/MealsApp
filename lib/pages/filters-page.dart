@@ -59,7 +59,7 @@ class _FiltersPageState extends State<FiltersPage> {
                   'Only include lactose-free meals',
                   (value) {
                     setState(() {
-                      _glutenFree = value;
+                      _lactoseFree = value;
                     });
                   }
                 ),
@@ -68,7 +68,7 @@ class _FiltersPageState extends State<FiltersPage> {
                   'Only include vegan meals',
                   (value) {
                     setState(() {
-                      _glutenFree = value;
+                      _vegan = value;
                     });
                   }
                 ),
@@ -77,7 +77,7 @@ class _FiltersPageState extends State<FiltersPage> {
                   'Only include vegetarian meals',
                   (value) {
                     setState(() {
-                      _glutenFree = value;
+                      _vegetarian = value;
                     });
                   }
                 ),
